@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+font-family: 'Permanent Marker', cursive;
+
+}
+body{
+	background-image: linear-gradient(to left bottom, #ffad56, #feb25d, #fcb864, #fbbd6b, #fac273, #f5bf73, #f1bc74, #ecb974, #e2ad6e, #d8a268, #ce9662, #c48b5c);
+}
+.fon{
+	background-image: url("img/about.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+}
+blockquote{
+	position: absolute;
+	width: 600px;
+	font-size: 18px;
+	/*text-transform: uppercase;*/
+	color: #000000;
+	top:470px;
+	left:70px;
+
+}
+#id{
+	text-decoration: none;
+	color: #000000;
+	
+}
+.photo{
+	float: right;
+	width: 200px;
+	height: 250px;
+
+}
+.photo1{
+	float: left;
+}
+.own{
+	display: flex;
+	font-size: 26px;
+	justify-content: center;
+	align-content: center;
+}
+.video{
+	position: absolute;
+	left: 350px;
+
+}
+@media only screen and (max-width: 992px){
+*{
+	font-size: 25px;
+}
+.fon{
+	background-image: url("img/about.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+}
+blockquote{
+	position: absolute;
+	width: 600px;
+	font-size: 18px;
+	/*text-transform: uppercase;*/
+	color: #000000;
+	top:470px;
+	left:70px;
+
+}
+#id{
+	text-decoration: none;
+	color: #000000;
+	
+}
+.photo{
+	float: right;
+
+}
+.photo1{
+	float: left;
+}ы
+.own{
+	display: flex;
+	font-size: 26px;
+	justify-content: center;
+	align-content: center;
+}
+.video{
+	position: absolute;
+	left: 350px;
+
+}
+}

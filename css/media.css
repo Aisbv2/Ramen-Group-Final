@@ -1,0 +1,506 @@
+*{
+	margin: 0;
+
+font-family: 'Permanent Marker', cursive;
+}
+#id{
+  text-decoration: none;
+  color: #000000;
+  font-size: 34px;
+  
+}
+#h1{
+	text-align: center;
+}
+.fon{
+	text-align: center;
+
+}
+.media-contact, .media-call{
+	background: transparent;
+  border: 2px solid #000000;
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+}
+.logo1{
+position: absolute;
+top: -100px;
+width: 400px;
+	left: 220px;
+}
+.log{
+position: absolute;
+top: 40px;
+width: 400px;
+	left: 220px;
+}
+
+.media-call:hover {
+    background: #000;
+  color: #fff;
+}
+
+#video:hover{
+	opacity: 0.3;
+}
+#vid video{
+	background-size: cover;
+	width: 500px;
+    height: auto;
+}
+#vid{
+	width: 500px;
+	height: 300px;
+}
+.videos{
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto auto;
+	grid-row-gap:300px;
+column-gap:auto;
+}
+.photos{
+	display: grid;
+	grid-template-rows: 250px 250px;
+	grid-template-columns: 550px 550px 0;
+	grid-row-gap:300px;
+column-gap:auto;
+}
+h1{
+	text-shadow: 2px 2px;
+	font-size: 50px;
+}
+.area{
+	width: 300px;
+	height: 60px;
+}
+.button{
+	left:650px;
+	position: absolute;
+	top: 600px;
+}
+.logo{
+	left:350px;
+	position: absolute;
+	top: 300px;
+}
+.table{
+position: absolute;
+left: 430px;
+top: 3000px;
+}
+#h1-con{
+	position: relative;
+	top:260px;
+	text-align: center;
+}
+@media only screen and (max-width: 540px){
+
+#id{
+  font-size: 25px;
+}
+
+.logo{
+	top: 115px;
+	left:40px;
+	font-size: 24px;
+}
+
+video{
+	width: 500px;
+}
+h1{
+	font-size: 25px;
+}
+.button{
+left: 150px;
+top: 450px;
+}
+.media-contact, .media-call{
+
+  width: 120px;
+  height: 20px;
+  font-size: 8px;
+}
+.videos{
+	display: grid;
+	grid-template-rows: 0 0;
+	grid-template-columns: 200px 200px 0;
+
+}
+#vid video{
+	background-size: cover;
+	width: 100px;
+    height: 200px;
+}
+#vid{
+	width: 300px;
+	height: 100px;
+}
+.photos{
+	position: absolute;
+	top:1190px;
+	display: grid;
+	grid-template-rows: 0 0;
+	grid-template-columns: 200px 200px 0;
+	
+}
+img{
+	width: 100px;
+	height: 200px;
+}
+.table{
+	position: absolute;
+left: 0;
+top: 1750px;
+}
+.area{
+	width: 200px;
+}
+.log{
+	position: absolute;
+	left: 20px;
+}
+.logo1{
+	top:10px;
+	position: absolute;
+	left: 20px;
+}
+}
+@media only screen and (max-width: 576px){
+	#id{
+  font-size: 25px;
+}
+
+.logo{
+	top: 115px;
+	left:40px;
+	font-size: 24px;
+}
+
+video{
+	width: 500px;
+}
+h1{
+	font-size: 25px;
+}
+.button{
+left: 150px;
+top: 450px;
+}
+.media-contact, .media-call{
+
+  width: 120px;
+  height: 20px;
+  font-size: 8px;
+}
+.videos{
+	display: grid;
+	grid-template-rows: 0 0;
+	grid-template-columns: 200px 200px 0;
+
+}
+#vid video{
+	background-size: cover;
+	width: 100px;
+    height: 200px;
+}
+#vid{
+	width: 300px;
+	height: 100px;
+}
+.photos{
+	position: absolute;
+	top:1190px;
+	display: grid;
+	grid-template-rows: 0 0;
+	grid-template-columns: 200px 200px 0;
+	
+}
+img{
+	width: 100px;
+	height: 200px;
+}
+.table{
+	position: absolute;
+left: 0;
+top: 1750px;
+}
+.area{
+	width: 200px;
+}
+.log{
+	position: absolute;
+	left: 20px;
+}
+.logo1{
+	top:10px;
+	position: absolute;
+	left: 20px;
+}
+}
+@media only screen and (max-width: 768px){
+	#id{
+  font-size: 35px;
+}
+
+.logo{
+	top: 115px;
+	left:200px;
+	font-size: 24px;
+}
+
+video{
+	width: 750px;
+}
+h1{
+	font-size: 35px;
+}
+.button{
+left:270px;
+top: 500px;
+}
+.media-contact, .media-call{
+
+  width: 150px;
+  height: 40px;
+  font-size: 10px;
+}
+.videos{
+	display: grid;
+	grid-template-rows: 0 0;
+	grid-template-columns: 200px 200px 0;
+	left: 50px;
+	position: absolute;
+
+}
+#vid video{
+	background-size: cover;
+	width: 200px;
+    height: 200px;
+}
+#vid{
+	width: 300px;
+	height: 100px;
+}
+.photos{
+	position: absolute;
+	top:1430px;
+	display: grid;
+	grid-template-rows: 0 0;
+	grid-template-columns: 210px 210px 0;
+	left: 50px;
+}
+img{
+	width: 200px;
+	height: 300px;
+}
+.table{
+	position: absolute;
+left: 0;
+top: 2150px;
+}
+.area{
+	width: 200px;
+}
+.ph{
+	position: absolute;
+	top: 1300px;
+	left: 220px;
+}
+#h1-con{
+	top: 1200px;
+}
+.log{
+	position: absolute;
+	top: 150px;
+	left: 20px;
+	font-size: 35px;
+	text-align: center;
+}
+.logo1{
+	position: absolute;
+	top: 0px;
+	left: 60px;
+	width: 300px;
+	font-size: 35px;
+	text-align: center;
+}
+}
+@media only screen and (max-width: 992px){
+	#id{
+  font-size: 35px;
+}
+
+.logo{
+	top: 115px;
+	left:200px;
+	font-size: 24px;
+}
+
+video{
+	width: 750px;
+}
+h1{
+	font-size: 35px;
+}
+.button{
+left:340px;
+top: 500px;
+}
+.media-contact, .media-call{
+
+  width: 150px;
+  height: 40px;
+  font-size: 10px;
+}
+.videos{
+	display: grid;
+	grid-template-rows: 0 0;
+	grid-template-columns: 200px 200px 0;
+	left: 150px;
+	position: absolute;
+
+}
+#vid video{
+	background-size: cover;
+	width: 200px;
+    height: 200px;
+}
+#vid{
+	width: 300px;
+	height: 100px;
+}
+.photos{
+	position: absolute;
+	top:1430px;
+	display: grid;
+	grid-template-rows: 0 0;
+	grid-template-columns: 210px 210px 0;
+	left: 150px;
+}
+img{
+	width: 200px;
+	height: 300px;
+}
+.table{
+	position: absolute;
+left: 280px;
+top: 2150px;
+}
+.area{
+	width: 200px;
+}
+.ph{
+	position: absolute;
+	top: 1300px;
+	left: 340px;
+}
+#h1-con{
+	top: 1200px;
+}
+.log{
+	position: absolute;
+	top: 150px;
+	left: 90px;
+	font-size: 35px;
+	text-align: center;
+}
+.logo1{
+	position: absolute;
+	top: 0px;
+	left: 120px;
+	width: 300px;
+	font-size: 35px;
+	text-align: center;
+}
+}
+@media only screen and (max-width: 1200px){
+	#id{
+  font-size: 35px;
+}
+
+.logo{
+	top: 115px;
+	left:200px;
+	font-size: 24px;
+}
+
+video{
+	width: 1150px;
+}
+h1{
+	font-size: 55px;
+}
+.button{
+left:400px;
+top: 550px;
+}
+.media-contact, .media-call{
+
+  width: 250px;
+  height: 40px;
+  font-size: 10px;
+}
+.videos{
+	display: grid;
+	grid-template-rows: 0 0;
+	grid-template-columns: 400px 400px 0;
+	left: 50px;
+	position: absolute;
+
+}
+#vid video{
+	background-size: cover;
+	width: 300px;
+    height: 400px;
+}
+#vid{
+	width: 300px;
+	height: 100px;
+}
+.photos{
+	position: absolute;
+	top:1630px;
+	display: grid;
+	grid-template-rows: 520 520;
+	grid-template-columns: 370px 370px 0;
+	left: 40px;
+}
+img{
+	width: 350px;
+	height: 500px;
+}
+.table{
+	position: absolute;
+left: 0;
+top: 2800px;
+}
+.area{
+	width: 400px;
+}
+.ph{
+	position: absolute;
+	top: 1500px;
+	left: 420px;
+}
+#h1-con{
+	top: 1800px;
+}
+.log{
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	font-size: 35px;
+	text-align: center;
+}
+.logo1{
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	width: 300px;
+	font-size: 35px;
+	text-align: center;
+}
+}

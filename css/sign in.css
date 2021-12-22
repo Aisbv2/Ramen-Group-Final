@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
+ body{
+    background-image: linear-gradient(to right, #FB9038, #FFAD56);
+  }
+h1{
+position: absolute;
+width: 450px;
+height: 75px;
+right: 198px;
+top: 20px;
+
+font-family: 'Permanent Marker', cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 55px;
+}
+h2{
+position: absolute;
+width: 396px;
+height: 53px;
+left: 175px;
+top: 440px;
+
+font-family: 'Permanent Marker', cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 52px;
+}
+.log{
+  text-decoration: none;
+  color:#fff;
+}
+.sign{
+  top: 100px;
+  right: 100px;
+}
+.upper-p{
+position: absolute;
+width: 308px;
+height: 24px;
+left: 179px;
+top: 580px;
+    
+font-family: 'Permanent Marker', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+.under-p{
+position: absolute;
+width: 308px;
+height: 24px;
+left: 179px;
+top: 610px;
+
+font-family: 'Permanent Marker', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+.logo{
+position: absolute;
+width: 500px;
+height: 30px;
+left: 42px;
+top: 20px;
+
+font-family: 'Permanent Marker', cursive;
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 30px;
+}
+#id{
+  text-decoration: none;
+  color: #000000;
+}
+.auth_img{
+position: absolute;
+left: 160px;
+      top: 70px;
+      border-radius: 24px;
+
+}
+.uname{
+position: absolute;
+width: 369px;
+height: 62px;
+left: 892px;
+top: 247px;
+    
+background: #fffee8;
+border-radius: 24px;
+border-color: #F0EFFF
+}
+.uname::placeholder{
+color: #000000;
+font-family: 'Permanent Marker', cursive;
+font-size: 15px;
+}
+.psw{
+position: absolute;
+width: 369px;
+height: 62px;
+left: 892px;
+top: 347px;
+background: #fffee8;
+border-radius: 24px;
+border-color: #F0EFFF;
+}
+#email, #password-input{
+  background-color:#fffee8;
+ 
+  box-shadow:5px 5px 5px #FF8906;  
+}
+.password-control{
+position: absolute;
+top: 371.16px;
+left: 1214px;
+display: inline-block;
+width: 20px;
+height: 20px;
+background: url(img/Vector.png) 0 0 no-repeat;
+}
+.psw::placeholder{
+color: #000000;
+font-family: 'Permanent Marker', cursive;
+font-size: 15px;
+}
+.login{
+position: absolute;
+left: 892px;
+top: 492px;
+width: 374px;
+height: 62px;
+border:none;
+background: #000000;
+box-shadow: 0px 4px 61px #FFF8E8;
+border-radius: 24px;
+text-align: center;
+color: white;
+font-weight: bolder;
+font-size: 17px;
+font-family: 'Permanent Marker', cursive;
+}
+.continue{
+position: absolute;
+width: 130px;
+height: 24px;
+left: 1012px;
+top: 585px;
+
+font-family: 'Permanent Marker', cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #B5B5B5;
+text-align: center;
+}
+.fa-facebook{
+position: absolute;
+left: 1006.96px;
+top: 670.02px;
+text-decoration: none;
+color:#fff;
+}
+.fa-google{
+    position: absolute;
+    left: 1067.85px;
+    top: 670.02px;
+    text-decoration: none;
+    color:#fff;
+}
+.fa-instagram{
+    position: absolute;
+    left: 1125.14px;
+    top: 670.02px;
+    color:#fff;
+    text-decoration: none;
+}
+.forgot{
+position: absolute;
+width: 200px;
+height: 20px;
+right: 330px;
+top: 426px;
+
+font-family: 'Permanent Marker', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+color: #B0B0B0;
+}
+.error1 {
+    color: red;
+    position: absolute;
+    left: 1280px;
+    top: 268px;
+  }
+  .error2 {
+    color: red;
+    position: absolute;
+    left: 1280px;
+    top: 361px;
+  }
+  .error3 {
+    color: red;
+    position: absolute;
+    left: 1280px;
+    top: 268px;
+  }
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 50%;
+    /* The width is the width of the web page */
+    padding-bottom: 10px;
+  }
+  
+@media only screen and (max-width: 768px){
+  body{
+    width: auto;
+    font-family: Poppins;
+    font-size: 20px;
+  }
+  h1{
+
+  left: 320px;
+
+}
+h2{
+  top: 60px;
+  left: 30px;
+
+}
+
+img{
+  display: none;
+}
+
+
+.upper-p, .log, .under-p{
+  left: 220px;
+}
+.continue{
+  left: 320px;
+top: 550px;
+}
+ .forgot{
+  left: 320px;
+  top: 420px;
+ }
+.uname, .login, .psw{
+
+  left: 220px;
+}
+.fa-facebook {
+left: 340px;
+}
+.fa-google{
+left:420px;
+  }
+  .fa-instagram{
+left: 500px;
+  }
+  .password-control{
+    left: 550px;
+  }
+  .error3{
+left: 620px;
+  }
+  .error1{
+
+left: -120px;
+  }
+
+}
+
+@media only screen and (max-width: 576px){
+  body{
+    width: auto;
+    font-family: Poppins;
+    font-size: 20px;
+  }
+  h1{
+left: 200px;
+}
+h2{
+  display: none;
+}
+
+img{
+  display: none;
+}
+
+.upper-p, .log, .under-p{
+  left: 180px;
+}
+.continue{
+  left: 220px;
+top: 430px;
+}
+ .forgot{
+  left: 220px;
+  top: 310px;
+ }
+.uname, .login, .psw{
+ 
+  left: 100px;
+}
+.fa-facebook {
+left: 200px;
+}
+.fa-google{
+left:280px;
+  }
+  .fa-instagram{
+left: 360px;
+  }
+  .password-control{
+    left: 430px;
+  }
+
+}
+
+@media only screen and (max-width: 540px){
+ body{
+    width: auto;
+    font-family: Poppins;
+    font-size: 20px;
+  }
+  h1{
+left: 180px;
+}
+h2{
+  display: none;
+}
+
+img{
+  display: none;
+}
+
+.upper-p, .log, .under-p{
+  left: 120px;
+}
+.continue{
+  left: 200px;
+top: 430px;
+}
+ .forgot{
+  left: 200px;
+  top: 310px;
+ }
+.uname, .login, .psw{
+ 
+  left: 80px;
+}
+.fa-facebook {
+left: 180px;
+}
+.fa-google{
+left:260px;
+  }
+  .fa-instagram{
+left: 340px;
+  }
+  .password-control{
+    left: 430px;
+  }
+
+}
+@media only screen and (max-width: 992px){
+body{
+    width: auto;
+    font-family: Poppins;
+    font-size: 23px;
+  }
+  h1{
+left: 680px;
+}
+h2{
+  left: 120px;
+}
+
+img{
+  width: 380px;
+  height: 280px;
+}
+
+.upper-p, .log, .under-p{
+  left: 120px;
+}
+.continue{
+  left: 720px;
+top: 430px;
+}
+ .forgot{
+  left: 710px;
+  top: 310px;
+ }
+.uname, .login, .psw{
+  left: 570px;
+}
+.fa-facebook {
+left: 680px;
+}
+.fa-google{
+left:760px;
+  }
+  .fa-instagram{
+left: 840px;
+  }
+  .password-control{
+    left: 900px;
+  }
+
+}
+@media only screen and (max-width: 1200px){
+body{
+    width: auto;
+    font-family: Poppins;
+    font-size: 18px;
+  }
+  h1{
+left: 830px;
+}
+h2{
+  left: 200px;
+}
+
+img{
+  width: 480px;
+  height: 380px;
+}
+
+.upper-p, .log, .under-p{
+  left: 200px;
+}
+.continue{
+  left: 840px;
+top: 430px;
+}
+ .forgot{
+  left: 830px;
+  top: 310px;
+ }
+.uname, .login, .psw{
+  left: 720px;
+}
+.fa-facebook {
+left: 830px;
+}
+.fa-google{
+left:910px;
+  }
+  .fa-instagram{
+left: 990px;
+  }
+  .password-control{
+    left: 1060px;
+  }
+ .error3{
+left: 1120px;
+
+  }
+  .error1{
+
+left: 120px;
+  }
+}

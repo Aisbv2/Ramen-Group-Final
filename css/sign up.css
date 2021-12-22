@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
+  body{
+    background-image: linear-gradient(to right, #FB9038, #FFAD56);
+   font-family: 'Permanent Marker', cursive;
+  }
+h1{
+position: absolute;
+width: 700px;
+height: 75px;
+right: 1px;
+top: 1px;
+
+font-family: 'Permanent Marker', cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 55px;
+}
+
+h2{
+  position: absolute;
+  width: 396px;
+  height: 53px;
+  left: 175px;
+  top: 440px;
+  
+font-family: 'Permanent Marker', cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+}
+.upper-p{
+  position: absolute;
+  width: 308px;
+  height: 24px;
+  left: 179px;
+  top: 580px;
+      
+  font-family: 'Permanent Marker', cursive;
+  background-color: inherit;
+  font-size: 16px;
+  line-height: 24px;
+}
+.under-p{
+  position: absolute;
+  width: 308px;
+  height: 24px;
+  left: 179px;
+  top: 610px;
+  background-color: inherit;
+  font-family: 'Permanent Marker', cursive;
+  
+  font-size: 16px;
+  line-height: 24px;
+}
+.logo{
+  position: absolute;
+  width: 500px;
+  height: 30px;
+  left: 42px;
+  top: 20px;
+
+font-family: 'Permanent Marker', cursive;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 30px;
+}
+#id{
+  text-decoration: none;
+  color: #000000;
+}
+.log{
+  text-decoration: none;
+  color:#fff;
+}
+.sign-in{
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    left: 892px;
+    top: 34px;
+    
+ font-family: 'Permanent Marker', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    }
+    .reg_img{
+      position: absolute;
+      left: 160px;
+      top: 70px;
+      border-radius: 24px;
+    }
+    .email{
+    position: absolute;
+    width: 369px;
+    height: 52px;
+    left: 892px;
+    top: 110px;   
+    background: #fffee8;
+    border-radius: 24px;
+    border-color: #F0EFFF;
+    }
+    .email::placeholder{
+      color: #000000;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+    }
+    .name{
+    position: absolute;
+    width: 369px;
+    height: 52px;
+    left: 892px;
+    top: 190px;        
+    background: #fffee8;
+    border-radius: 24px;
+    border-color: #F0EFFF;   
+    }
+    .name::placeholder{
+      color: #000000;
+   font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+    }
+    .number{
+    position: absolute;
+    width: 369px;
+    height: 52px;
+    left: 892px;
+    top: 270px;        
+    background: #fffee8;
+    border-radius: 24px;
+    border-color: #F0EFFF   
+    }
+    .number::placeholder{
+      color: #000000;
+   font-family: 'Permanent Marker', cursive;
+      font-size: 15px;
+    }
+    .psw{
+    position: absolute;
+    width: 369px;
+    height: 52px;
+    left: 892px;
+    top: 350px;
+    background: #fffee8;
+    border-radius: 24px;
+    border-color: #F0EFFF;
+        }
+
+    .psw::placeholder{
+      color: #000000;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 15px;
+            }
+    .date_register{
+    position: absolute;
+    width: 369px;
+    height: 52px;
+    left: 892px;
+    top: 430px;
+    background: #fffee8;
+    border-radius: 24px;
+    border-color: #F0EFFF;   
+    }
+    
+#email, #name, #phone, #password{
+  background-color:#fffee8;
+  box-shadow:5px 5px 5px #FF8906;  
+}
+.reg{
+  left: 930px;
+}
+    .register{
+position: absolute;
+left: 892px;
+top: 510px;
+width: 374px;
+height: 52px;
+background: #000000;
+box-shadow: 0px 4px 61px #FFF8E8;
+border-radius: 24px;
+border-color: #000000;
+text-align: center;
+color: white;
+font-weight: bolder;
+font-size: 17px;
+font-family: 'Permanent Marker', cursive;
+    } 
+
+.password-control{
+position: absolute;
+top: 371.16px;
+left: 1214px;
+display: inline-block;
+width: 20px;
+height: 20px;
+background: url(img/Vector.png) 0 0 no-repeat;
+}
+
+.continue{
+    position: absolute;
+width: 130px;
+height: 24px;
+left: 1012px;
+top: 585px;
+background-color: inherit;
+font-family: 'Permanent Marker', cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #B5B5B5;
+text-align: center;
+}       
+p{
+  background-color: #f2a30b;
+}
+    .fa-facebook{
+    position: absolute;
+    left: 1006.96px;
+    top: 670.02px;
+    text-decoration: none;
+     color:#fff;
+    }
+    .fa-google{
+        position: absolute;
+        left: 1067.85px;
+        top: 670.02px;
+        text-decoration: none;
+         color:#fff;
+    }
+    .fa-instagram{
+        position: absolute;
+        left: 1125.14px;
+        top: 670.02px;
+        text-decoration: none;
+         color:#fff;
+    }
+    #isEmailValid {
+      color: red;
+      position: absolute;
+      left: 1270px;
+      top: 125px;
+    }
+  #isNameValid {
+      color: red;
+      position: absolute;
+      left: 1270px;
+      top: 210px;
+    }
+    #isPhoneValid {
+      color: red;
+      position: absolute;
+      left: 1270px;
+      top: 292px;
+    }
+    #isEmailCorrect{
+      color: red;
+      position: absolute;
+      left: 1270px;
+      top: 125px;
+    }
+    #isPasswordFull {
+      color: red;
+      position: absolute;
+      left: 1270px;
+      top: 362px;
+    } 
+ 

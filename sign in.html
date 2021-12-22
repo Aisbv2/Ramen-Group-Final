@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Final Project Coded by Amenov Yernar & Buasheva Aisha|Sign in page</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="css/sign in.css">
+      <script src="https://kit.fontawesome.com/72a1da73a3.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="left-side">
+         <header class="logo">
+            <a href="index.html" id="id">
+               Ramen GROUP
+            </a>
+         </header>
+         <h1 class="sign">Sign in</h1>
+         <h2>Welcome to RAMEN group</h2>
+         <p class="upper-p">If you have not been logged in before</p>
+         <p class="under-p">You can<a href="sign up.html" class="log"><b> register here</b></a></p>
+         <img class="auth_img" src="img/ichi4.jpg" width="600" height="400" alt="">
+      </div>
+      <aside>
+         <div class="container">
+            <form id="log-form">
+               <input class="uname" id="email" type="text" placeholder="Enter your email" name="uname">
+               <input class="psw" type="password" id="password-input" type="password" placeholder="Password" name="password">
+               <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+               <button class="login" type="submit" onclick="saveData()">Sign in</button>
+            </form>
+         </div>
+      </aside>
+      <p class="forgot">Forgot the password?</p>
+      <p class="continue">or continue with</p>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      </aside>
+      <script src="js/sign in.js"></script>
+   </body>
+</html>
